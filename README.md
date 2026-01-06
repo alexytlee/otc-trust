@@ -20,20 +20,20 @@ Your clients need assurance that when they deposit funds:
 ┌──────────────────────────────────────────────────────────────────────┐
 │                          CLIENT FUNDS SAFE                           │
 │                                                                      │
-│   ┌────────────────────────────────────────────────────────────┐    │
-│   │                    WHITELIST GUARD                          │    │
-│   │                                                             │    │
-│   │   ✅ Send to Bank Account A        (whitelisted)           │    │
-│   │   ✅ Send to Bank Account B        (whitelisted)           │    │
-│   │   ✅ Send to Settlement Wallet     (whitelisted)           │    │
-│   │                                                             │    │
-│   │   ❌ Send anywhere else            BLOCKED                  │    │
-│   │   ❌ Remove this guard             BLOCKED                  │    │
-│   │   ❌ Change Safe settings          BLOCKED                  │    │
-│   └────────────────────────────────────────────────────────────┘    │
+│   ┌────────────────────────────────────────────────────────────┐     │
+│   │                    WHITELIST GUARD                         │     │
+│   │                                                            │     │
+│   │   ✅ Send to Bank Account A        (whitelisted)           │     │
+│   │   ✅ Send to Bank Account B        (whitelisted)           │     │
+│   │   ✅ Send to Settlement Wallet     (whitelisted)           │     │
+│   │                                                            │     │
+│   │   ❌ Send anywhere else            BLOCKED                 │     │
+│   │   ❌ Remove this guard             BLOCKED                 │     │
+│   │   ❌ Change Safe settings          BLOCKED                 │     │
+│   └────────────────────────────────────────────────────────────┘     │
 │                                                                      │
-│   Executor: Day-to-day operator (uses Safe UI)                      │
-│   Recovery: Authorized signers (can update whitelist if needed)     │
+│   Executor: Day-to-day operator (uses Safe UI)                       │
+│   Recovery: Authorized signers (can update whitelist if needed)      │
 └──────────────────────────────────────────────────────────────────────┘
 ```
 
