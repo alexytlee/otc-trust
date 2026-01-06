@@ -220,9 +220,3 @@ You can verify the protection yourself:
 4. Verify the guard code matches this repository
 
 **Your funds can only go to addresses you can verify on-chain.**
-
----
-
-## License
-
-MIT
